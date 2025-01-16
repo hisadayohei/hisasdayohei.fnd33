@@ -1,0 +1,78 @@
+/* タイトル */
+.title{
+    text-align: center;
+    color: red;
+    font-family: serif;
+    font-size: 35px;
+    margin-top: -10px;
+}
+
+/* ルール */
+.ruleArea{
+    margin-top: -20px;
+}
+.rule{
+    padding: 0.5%;
+    font-size: 20px;
+}
+.important{
+    font-size: 25px;
+    color: red;
+}
+
+/* カウントダウン */
+#countDown{
+    text-align: center;
+    font-size: 30px;
+    margin-top: -50px;
+
+}
+/* 枠 */
+.box1{
+    text-align: center;
+    padding: 0.3em 0.5em;
+    margin: 1em 400px;
+    font-weight: bold;
+    background: #FFF;
+    border: solid 4px #d1ffb7;
+    border-radius: 20px;
+}
+#showText{
+    font-size: 40px;
+
+}
+
+ゲームスタート
+.active{
+    display: flex;
+
+}
+#startBotton{
+    margin-left: 5%;
+    font-size: 25px;
+    background-color: #7f7ff8;
+}
+#answerText{
+    font-size: 25px;
+    margin-left: 15%;
+    background-color: whitesmoke;
+}
+
+
+.resultArea{
+    display: flex;
+    font-size: 30px;
+
+}
+.result{
+    margin-right: 100px;
+}
+
+
+
+#result{
+    margin-top: 30px;
+}
+.missScore{
+    margin-left: 100px;
+}
