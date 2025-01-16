@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>反射神経ゲーム</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <h1 class="title">反射神経ゲーム</h1>
 
+    <h3>
+        <ol class="ruleArea">
+            <li class="rule">スタートボタンを押したらゲーム開始！</li>
+            <li class="rule">カウントダウン後、ローマ字(1文字)が表示された瞬間に同じ文字を<span class="important">半角ローマ字</span>で入力しよう！</li>
+            <li class="rule">入力すると反応速度の結果が表示されるよ！</li>
+            <li class="rule">Escキーを押したらリスタートできるよ</li>
+        </ol>
+    </h3>
+    <div id="countDown">カウントダウン</div>
+    <div class="box1">
+        <p id="showText">ここに文字が出るよ</p>
+    </div>
+    <div class="active">
+        <input type="button" id="startBotton" value="ゲームスタート！">
+        <input type="text" id="answerText" maxlength=1 placeholder="ここに半角ローマ字を入力">
+    </div>
+    <div class="resultArea">
+        <p class="result">結果</p> 
+        <p>反応速度</p><span id="result"></span>
+        <p class="missScore">ミス回数<span id = "missResult"></span></p>
+        <script type="text/javascript" src="script.js"></script>
+    </div>
+    
+</body>
+</html> 
